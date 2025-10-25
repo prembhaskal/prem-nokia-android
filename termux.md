@@ -19,6 +19,8 @@
 # access from laptop
 - ssh -p 8022 u0_a195@192.168.1.12
 
+- sftp -P 8022 u0_a195@192.168.1.12
+
 # access storage
 - run in phone only as it will prompt for access
 - `termux-setup-storage`

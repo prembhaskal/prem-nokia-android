@@ -1,3 +1,8 @@
+# compile outside and run
+  - `GOOS=android GOARCH=arm64 go build -o hello-termux main.go`
+  - sftp to termux
+  - run inside termux `./hello-termux`
+
 # installation
 - download from external go binary (arm64) and add in path.
 ```bash
